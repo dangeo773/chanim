@@ -24,3 +24,15 @@ You can also refer to the entire board at once if you want to select everything 
 self.play(Create(my_board.board))
 ```
 
+### PIECES 
+
+You can create a piece object by calling their respective methods, and pass in the color to specify the pieces' color.
+
+```
+white_pawn = Pawn(WHITE)
+black_bishop = Bishop(BLACK)
+white_rook = Rook(WHITE)
+black_queen = Queen(BLACK)
+white_king = King(WHITE)
+black_knight = Knight(BLACK)
+```
